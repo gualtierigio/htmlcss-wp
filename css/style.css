@@ -53,10 +53,11 @@ ul{
     width: 100%;
     margin-bottom: 30px;
     padding-top: 250px;
+    padding-left: 80px;
 }
 
 .jumbo-bg{
-    background-image: linear-gradient(rgba) url(../img/banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -64,9 +65,8 @@ ul{
 
 .jumbotron__content{
     height: 100px;
-    width: 50%;
-    min-width: 50%;
-    border: 1px solid red;
+    width: 55%;
+    min-width: 55%;
 }
 
 .bg-color-skyblue{
