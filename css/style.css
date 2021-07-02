@@ -68,6 +68,7 @@ h4{
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    height: 200px;
 }
 
 .jumbotron{
@@ -101,7 +102,6 @@ header div.text-lightgray{
 }
 
 div.container.clearfix{
-    height: 600px;
     width: 100%;
     margin-bottom: 10px;
     padding: 20px 0;
@@ -116,10 +116,6 @@ div.container.clearfix{
     height: 100%;
     margin: 0 25px;
     width: calc(60% - 50px);
-}
-
-div#img-aside-left, div#img-aside-right, div#img-middle{
-    height: 200px;
 }
 
 #img-aside-left{
