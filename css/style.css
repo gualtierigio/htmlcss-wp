@@ -4,12 +4,39 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .padding-page{
     padding: 20px 100px;
 }
 
-.bg-color-pink{
-    background-color: rgb(222, 32, 240);
+.logo{
+    height: 50%;
+    background-size: contain;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(141, 139, 139, 0.842);
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.text-lightgray{
+    color: rgba(141, 139, 139, 0.842);
 }
 
 .bg-color-yellow{
