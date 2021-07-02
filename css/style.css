@@ -10,6 +10,11 @@ body{
 
 .padding-page{
     padding: 20px 100px;
+    min-width: 790px;
+}
+
+.layhover{
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .logo{
@@ -39,8 +44,29 @@ ul{
     color: rgba(141, 139, 139, 0.842);
 }
 
-.bg-color-yellow{
-    background-color: rgb(221, 221, 107);
+.text-white{
+    color: white;
+}
+
+.jumbotron{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-top: 250px;
+}
+
+.jumbo-bg{
+    background-image: linear-gradient(rgba) url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.jumbotron__content{
+    height: 100px;
+    width: 50%;
+    min-width: 50%;
+    border: 1px solid red;
 }
 
 .bg-color-skyblue{
@@ -53,12 +79,6 @@ ul{
 
 .top-header{
     height: 150px;
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-.jumbo{
-    height: 400px;
     width: 100%;
     margin-bottom: 30px;
 }
