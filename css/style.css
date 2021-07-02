@@ -64,10 +64,6 @@ h4{
     color: white;
 }
 
-.text-red{
-    color: red;
-}
-
 .img-container{
     background-size: cover;
     background-position: center;
@@ -146,4 +142,15 @@ footer div{
     font-size: 20px;
 }
 
+span.heart-red{
+    display: none;
+}
 
+.heart-red{
+    color: red;
+    font-size: 25px;
+}
+
+footer:hover .heart-red{
+ display: inline-block;
+}
