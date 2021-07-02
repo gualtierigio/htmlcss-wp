@@ -13,8 +13,10 @@ body{
     min-width: 790px;
 }
 
-.layhover{
-    background-color: rgba(0, 0, 0, 0.9);
+.top-header{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .logo{
@@ -40,12 +42,36 @@ ul{
     list-style-type: none;
 }
 
+h4{
+    margin: 16px 0;
+}
+
+.float-left{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .text-lightgray{
     color: rgba(141, 139, 139, 0.842);
 }
 
 .text-white{
     color: white;
+}
+
+.text-red{
+    color: red;
+}
+
+.img-container{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
 
 .jumbotron{
@@ -56,11 +82,8 @@ ul{
     padding-left: 80px;
 }
 
-.jumbo-bg{
+#jumbo-bg{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
 }
 
 .jumbotron__content{
@@ -69,23 +92,16 @@ ul{
     min-width: 55%;
 }
 
-.bg-color-skyblue{
-    background-color: rgb(84, 164, 240);
-}
-
-.bg-color-blue{
-    background-color: rgb(70, 46, 173);
-}
-
-.top-header{
-    height: 150px;
-    width: 100%;
-    margin-bottom: 30px;
-}
-
 .articles-header{
     height: 100px;
-    width: 100%;
+}
+
+header.articles-header h1{
+    font-size: 40px;
+}
+
+header div.text-lightgray{
+    font-weight: bold;
 }
 
 div.container.clearfix{
@@ -95,28 +111,39 @@ div.container.clearfix{
     padding: 20px 0;
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .aside-article{
     height: 100%;
-    width: calc(35% / 2);
-}
-
-.float-left{
-    float: left;
+    width: calc(40% / 2);
 }
 
 .middle-article{
     height: 100%;
     margin: 0 25px;
-    width: calc(65% - 50px);
+    width: calc(60% - 50px);
+}
+
+div#img-aside-left, div#img-aside-right, div#img-middle{
+    height: 200px;
+}
+
+#img-aside-left{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/img-1.jpg);
+}
+
+#img-aside-right{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/img-6.jpg);
+}
+
+#img-middle{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner-2.jpg);
 }
 
 footer{
-    background-color: rgb(123, 40, 131);
     height: 60px;
+    text-align: center;
 }
+footer div{
+    font-size: 20px;
+}
+
+
